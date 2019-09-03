@@ -1,6 +1,6 @@
 #!/bin/sh
 SERVICE_NAME=spring-mvc-test
-PATH_TO_JAR=app.jar
+PATH_TO_JAR=target/app.jar
 PID_PATH_NAME=/tmp/spring-mvc-test-PID
 case $1 in
     start)
